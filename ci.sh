@@ -1,0 +1,1 @@
+docker build -t windurst/abiotic . && docker push windurst/abiotic:latest && git add -A && git commit -m "ci" && git push

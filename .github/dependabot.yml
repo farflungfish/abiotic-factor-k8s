@@ -4,7 +4,6 @@ version: 2
 updates:
   # Manage Docker dependencies
   - package-ecosystem: "docker"
-    versioning-strategy: "increase"  # Update to the latest version
     directory: /  # Location of the Dockerfile
     schedule:
       interval: "weekly"
